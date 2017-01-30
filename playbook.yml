@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: true
+  tasks:
+  - service:
+      name: net.eth0
+      state: started
+...
