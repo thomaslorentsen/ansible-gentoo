@@ -5,11 +5,6 @@ To replicate, start the vagrant box and then ```ssh``` into it.
 vagrant up
 vagrant ssh
 ```
-Install pip
-```bash
-sudo easy_install pip
-sudo pip install ansible
-```
 Inside the vagrant box run
 ```bash
 cd /vagrant
